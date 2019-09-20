@@ -7,10 +7,10 @@ import android.widget.EditText
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
-/**
+/*
  * @author Adi Suryantoeo (adisuryantoro17@gmail.com)
  * @version Rating, v 0.1 20/09/2019 09.03 AM by Adi Suryantoro
- **/
+ */
 
 class MainActivity : AppCompatActivity() {
 
