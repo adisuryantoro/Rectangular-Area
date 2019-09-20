@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rectangular Area</string>
+    <string name="string_width_rectangular">Width Rectangular</string>
+    <string name="string_height_rectangular">Height Rectangular</string>
+    <string name="string_count_rectangular_area">Count</string>
+    <string name="string_rectangular_area">Rectangular Area</string>
+</resources>

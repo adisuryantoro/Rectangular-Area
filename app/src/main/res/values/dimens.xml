@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="elevation_four">4dp</dimen>
+    <dimen name="horizontal_margin_sixteen">16dp</dimen>
+    <dimen name="horizontal_margin_thirty">30dp</dimen>
+    <dimen name="horizontal_margin_forty">40dp</dimen>
+    <dimen name="horizontal_margin_eight">8dp</dimen>
+    <dimen name="vertical_margin_eight">8dp</dimen>
+    <dimen name="vertical_margin_thirty">30dp</dimen>
+    <dimen name="vertical_margin_thirty_four">34dp</dimen>
+    <dimen name="vertical_margin_sixteen">16dp</dimen>
+    <dimen name="vertical_margin_twenty">24dp</dimen>
+    <dimen name="vertical_margin_four">4dp</dimen>
+    <dimen name="horizontal_margin_four">4dp</dimen>
+    <dimen name="vertical_margin_two">2dp</dimen>
+    <dimen name="horizontal_margin_two">2dp</dimen>
+    <dimen name="height_margin_thirty_five">35dp</dimen>
+    <dimen name="height_margin_button">50dp</dimen>
+    <dimen name="height_margin_edittext">45dp</dimen>
+    <dimen name="textsize_twenty_four">24sp</dimen>
+    <dimen name="textsize_fourteen">14sp</dimen>
+    <dimen name="height_margin_forty">40dp</dimen>
+    <dimen name="height_margin_eighty">80dp</dimen>
+    <dimen name="height_margin_forty_four">44dp</dimen>
+    <dimen name="padding_margin_teen">10dp</dimen>
+    <dimen name="teztsize_fifty">50sp</dimen>
+
+
+</resources>

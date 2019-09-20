@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title_rectangular_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/horizontal_margin_sixteen"
+        android:layout_marginTop="@dimen/vertical_margin_sixteen"
+        android:layout_marginRight="@dimen/horizontal_margin_sixteen"
+        android:fontFamily="@font/quicksand_bold"
+        android:gravity="center"
+        android:text="@string/string_rectangular_area"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/teztsize_fifty"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/horizontal_margin_sixteen"
+            android:elevation="@dimen/vertical_margin_sixteen"
+            android:padding="@dimen/vertical_margin_thirty"
+            app:cardCornerRadius="@dimen/padding_margin_teen">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/et_width_rectangular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/horizontal_margin_thirty"
+                    android:layout_marginLeft="@dimen/horizontal_margin_thirty"
+                    android:layout_marginTop="@dimen/vertical_margin_sixteen"
+                    android:layout_marginEnd="@dimen/horizontal_margin_thirty"
+                    android:layout_marginRight="@dimen/horizontal_margin_thirty"
+                    android:layout_marginBottom="@dimen/vertical_margin_eight"
+                    android:padding="@dimen/padding_margin_teen"
+                    app:layout_constraintBottom_toTopOf="@id/et_height_rectangular"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_width_rectangular"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_margin_forty_four"
+                        android:layout_marginTop="@dimen/vertical_margin_twenty"
+                        android:background="@drawable/background_edit_text_green"
+                        android:ems="10"
+                        android:fontFamily="@font/quicksand_regular"
+                        android:gravity="center_vertical|left"
+                        android:hint="@string/string_width_rectangular"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:paddingLeft="@dimen/vertical_margin_eight"
+                        android:paddingTop="@dimen/horizontal_margin_four"
+                        android:textSize="@dimen/textsize_fourteen"
+                        tools:targetApi="o" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/et_height_rectangular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/horizontal_margin_thirty"
+                    android:layout_marginLeft="@dimen/horizontal_margin_thirty"
+                    android:layout_marginTop="@dimen/vertical_margin_sixteen"
+                    android:layout_marginEnd="@dimen/horizontal_margin_thirty"
+                    android:layout_marginRight="@dimen/horizontal_margin_thirty"
+                    android:layout_marginBottom="@dimen/vertical_margin_twenty"
+                    android:padding="@dimen/padding_margin_teen"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_height_rectangular"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_margin_edittext"
+                        android:layout_marginTop="@dimen/vertical_margin_sixteen"
+                        android:background="@drawable/background_edit_text_green"
+                        android:ems="10"
+                        android:fontFamily="@font/quicksand_regular"
+                        android:gravity="center_vertical|left"
+                        android:hint="@string/string_height_rectangular"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:paddingLeft="@dimen/vertical_margin_eight"
+                        android:paddingTop="@dimen/horizontal_margin_four"
+                        android:textSize="@dimen/textsize_fourteen"
+                        tools:ignore="LabelFor"
+                        tools:targetApi="o" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/vertical_margin_sixteen"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_count_rectangular_area"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_margin_button"
+            android:layout_marginLeft="@dimen/horizontal_margin_forty"
+            android:layout_marginTop="@dimen/vertical_margin_twenty"
+            android:layout_marginRight="@dimen/horizontal_margin_forty"
+            android:background="@drawable/background_button_blue"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="@string/string_count_rectangular_area"
+            android:textColor="@color/colorIconsText" />
+
+        <TextView
+            android:id="@+id/tv_result_rectangular_area"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_margin_eighty"
+            android:layout_marginLeft="@dimen/horizontal_margin_forty"
+            android:layout_marginTop="@dimen/vertical_margin_twenty"
+            android:layout_marginRight="@dimen/horizontal_margin_forty"
+            android:layout_marginBottom="@dimen/vertical_margin_sixteen"
+            android:background="@drawable/background_edit_text_green"
+            android:fontFamily="@font/quicksand_bold"
+            android:gravity="center"
+            android:text="@string/string_rectangular_area"
+            android:textSize="@dimen/textsize_twenty_four" />
+
+    </LinearLayout>
+
+</LinearLayout>
